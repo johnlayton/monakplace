@@ -31,4 +31,4 @@ spec:
           proxy_hide_header l5d-server-id;
       path: /
       hosts:
-      - minikube
+      - 10.96.199.25.nip.io
