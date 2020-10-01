@@ -8,9 +8,9 @@ metadata:
 spec:
   releaseName: nginx-ingress
   chart:
-    repository: https://kubernetes.github.io
+    repository: https://kubernetes-charts.storage.googleapis.com/
     name: nginx-ingress
-    version: 3.3.0
+    version: 1.33.4
   values:
     controller:
       service:
