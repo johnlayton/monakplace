@@ -8,9 +8,9 @@ metadata:
 spec:
   releaseName: nginx-ingress
   chart:
-    git: git@github.com:kubernetes/ingress-nginx
-    ref: master
-    path: charts/ingress-nginx
+    repository: https://kubernetes.github.io
+    name: nginx-ingress
+    version: 3.3.0
   values:
     controller:
       service:
