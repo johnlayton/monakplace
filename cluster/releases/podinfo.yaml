@@ -18,7 +18,7 @@ spec:
       repository: stefanprodan/podinfo
       tag: 3.1.0
     service:
-      enabled: false
+      enabled: true
       type: ClusterIP
     ingress:
       enabled: true
