@@ -7,11 +7,6 @@ logger title "Initialisation"
 logger info "Create and start kube"
 kube init
 
-#logger info "Start docs server"
-#open "http://localhost:8080" && \
-#  npm install && \
-#  npm run docs:dev &
-
 logger title "Prerequisites"
 
 logger info "Add the flux chart repo (and list repos)"
