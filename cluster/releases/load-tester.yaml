@@ -4,7 +4,7 @@ metadata:
   name: load-tester
   namespace: prod
   annotations:
-    fluxcd.io/ignore: "false"
+    fluxcd.io/ignore: "true"
 spec:
   releaseName: load-tester
   chart:
