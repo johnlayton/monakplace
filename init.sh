@@ -56,4 +56,4 @@ logger info "Start linkerd"
 linkerd dashboard &
 
 logger info "Start minikube tunnel"
-minikube tunnel
+minikube tunnel &
