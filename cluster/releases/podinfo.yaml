@@ -5,9 +5,7 @@ metadata:
   name: podinfo
   namespace: prod
   annotations:
-    fluxcd.io/ignore: "true"
-    fluxcd.io/automated: "false"
-    fluxcd.io/tag.chart-image: semver:~3.1
+    fluxcd.io/ignore: "false"
 spec:
   releaseName: podinfo
   chart:
